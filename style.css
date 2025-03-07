@@ -31,3 +31,17 @@
     transform: translateY(-10px);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
+.hero-section {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    padding: 50px 0;
+}
+.hero-section img {
+    border: 5px solid white;
+}
+.career-card {
+    transition: transform 0.3s ease-in-out;
+}
+.career-card:hover {
+    transform: scale(1.05);
+}
+
